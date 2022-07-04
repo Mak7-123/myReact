@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.arrowUp {
+    position: fixed;
+    bottom: 5%;
+    left: 93%;
+
+}
+
+
+.fas {
+    width: 100px;
+    transition: 15s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
+    --shift: 0;
+    --x: 0;
+    --y: 0;
+}
+
+.parallax-wrap {
+    position: relative;
+    grid-area: p;
+    height: 850px;
+    z-index: 10;
+    overflow: hidden;
+}
+
+
+.parallax-wrap img {
+    position: absolute;
+    --shift-px: calc(var(--shift) * 1px);
+    transform: translateX(calc((100vw - var(--x) * var(--shift-px)) / 90)) translateY(calc((100vh - var(--y) * var(--shift-px)) / 90));
+    z-index: 1;
+}
+
+
+
+
+.parallax-wrap img:nth-child(1) {
+    position: absolute;
+    width: 300px;
+    height: 296px;
+    top: 34%;
+    bottom: 0%;
+    left: 50%;
+    right: 0%;
+    --shift: -2;
+    z-index: 100;
+    perspective: 500px;
+    color: y;
+}
+
+
+
+.parallax-wrap img:nth-child(2) {
+    position: absolute;
+    width: 700px;
+    height: 650px;
+    top: -20%;
+    bottom: 0%;
+    left: 10%;
+    right: 0%;
+    --shift: 20;
+    z-index: 100;
+}
+
+
+
+.parallax-wrap img:nth-child(3) {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    top: 58%;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    --shift: -1;
+    z-index: 2;
+}
+
+.parallax-wrap img:nth-child(4) {
+    position: absolute;
+    width: 1550px;
+    height: auto;
+    top: 0%;
+    bottom: 0;
+    left: -3%;
+    right: 1;
+    --shift: 5;
+    z-index: 1;
+} */

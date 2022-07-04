@@ -1,0 +1,33 @@
+.message{
+  grid-area: m;
+  height: 130px;
+}
+
+
+.text textarea{
+  position: absolute;
+  max-width: 350px;
+  min-width: 200px;
+  max-height: 120px;
+  min-height: 20px;
+  padding: 20px;
+  left: 270px;
+  height: auto;
+  background-color: #1a1919;
+  border-radius: 5px 5px 0px 0px;
+  border: 0px solid #383126e4;
+  background: linear-gradient(0deg, #cdc5c5 2%, #0d0d0deb 5%, #1a1919b7 75%, #1a191900 100%);
+  color: #d5d2cd;
+  font-size: 17px;
+  font-weight: 400;
+  z-index: 1;
+}
+
+.text::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+.like{
+
+}

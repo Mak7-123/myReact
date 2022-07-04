@@ -1,0 +1,44 @@
+
+.dialog {
+    position: absolute;    
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    grid-area: d;
+    width: 235px;
+    height: 500px;
+    background-color: #000000a5;
+    text-align: center;
+    padding: 0px;
+    overflow-y: auto;
+    z-index: 10000;
+
+}
+
+.dialogUser  {
+    display: block;
+    text-decoration: none;
+    color: #827f6e;
+    padding: 12px;
+    font-size: 20px;
+    border-bottom: 3px solid #827f6e;
+
+}
+
+.dialogUser:hover{
+        background: linear-gradient(90deg, #817f6ee6 2%, 
+        #827f6e7d 27%, #827f6e2f 68%, #827f6e0a 100%);
+}
+
+
+.dialogUser a{
+    color: gold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+

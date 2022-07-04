@@ -1,0 +1,24 @@
+
+
+.fon {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+    grid-template-areas: "menu content text";
+    position: absolute;
+    top: 60px;
+    max-width: 1350px;
+    min-width: 1300px;
+    overflow: hidden;
+    background-color: #000000e7;
+    background: radial-gradient(circle, #0000007c 0%, #00000097 15%, #000000b5 30%,
+            #000000c9 50%, #000000de 70%, #000000f5 90%, #000000 100%);
+    height: auto;
+
+}
+
+.bestiary img {
+    width: 1350px;
+    height: 615px;
+
+}

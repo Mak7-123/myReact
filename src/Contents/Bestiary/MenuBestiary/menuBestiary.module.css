@@ -1,0 +1,50 @@
+.menuBestiary {
+    position: absolute;
+    grid-area: menu;
+    top: 50px;
+    height: 500px;
+    width: 280px;
+    background-color: #000000a5;
+    text-align: center;
+    padding: 0px;
+    min-width: 200px;
+    overflow-y: auto;
+
+}
+
+
+.menuBestiary::-webkit-scrollbar {
+    width: 10px;
+}
+
+.menuBestiary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4d4b41 0%, #cbc6a7ef 50%, #4d4b41 100%);
+}
+
+
+
+
+
+.menuBestiary a {
+    display: block;
+    text-decoration: none;
+    color: #827f6e;
+    padding: 12px;
+    font-size: 21px;
+    border-bottom: 3px solid #827f6e;
+}
+
+.menuBestiary a:hover {
+    background: linear-gradient(90deg, #827f6ee6 2%, #827f6e7d 27%, #827f6e2f 68%, #827f6e0a 100%);
+}
+
+
+.logoMenu img {
+    position: relative;
+    padding: 0px 5px 0px 0px;
+    top: 6px;
+    width: 40px;
+    height: 40px;
+
+}

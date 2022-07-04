@@ -1,0 +1,43 @@
+.bestiary {
+    display: grid;
+    grid-area: content;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "c t";
+
+}
+
+.bestiaryContent {
+    grid-area: c;
+
+}
+
+.bestiaryContent img {
+    width: 500px;
+
+}
+
+.bestiaryText {
+
+    text-align: center;
+    margin: 0px 40px 20px 0px;
+    padding: 0px 10px;
+    border-bottom: 5px solid;
+    overflow-x: hidden;
+    height: 600px;
+}
+
+
+.bestiaryText::-webkit-scrollbar {
+    width: 10px;
+}
+
+.bestiaryText::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(90deg, #4d4b41 0%, #cbc6a7ef 50%, #4d4b41 100%);
+}
+
+
+.bestiaryText h2 {
+    color: #959595;
+    font-size: 35px;
+}

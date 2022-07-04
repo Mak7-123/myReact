@@ -1,0 +1,110 @@
+ .maps {
+     grid-area: p;
+     width: 1350px;
+ }
+
+ .img {
+    
+     max-height: 350px;
+ }
+
+
+ .text {
+     position: relative;
+     padding: 0px 15px;
+     height: 250px;
+     background-color: #1a1818;
+
+     text-align: center;
+ }
+
+
+
+ .audio {
+     position: fixed;
+     width: 130px;
+     height: 40px;
+     left: 20px;
+     top: 300px;
+ }
+
+ audio::-webkit-media-controls-play-button {
+     background-color: #959595;
+     border-radius: 25px;
+ }
+
+
+
+
+
+
+
+
+
+ .mapsText {
+     position: relative;
+     top: 0px;
+     height: 300px;
+     width: auto;
+     background-color: #1a1818;
+     text-align: center;
+     padding: 0px;
+     min-width: 200px;
+ }
+
+ .mapsText::before {
+     content: '';
+     position: absolute;
+     left: 0;
+     top: -30px;
+     width: 100%;
+     height: 30px;
+     background: linear-gradient(0deg, #1a1818 10%, #1a1818cc 50%, #1a181862 79%, #1a181800 100%);
+     z-index: 1000;
+ }
+
+
+ .mapsText_p {
+     margin: 10px 150px;
+
+     position: relative;
+     height: 150px;
+     max-height: 100px;
+     width: auto;
+     background-color: #1a1818;
+     text-align: center;
+     padding: 0px;
+     min-width: 200px;
+     overflow-y: auto;
+     border-bottom: solid 3px #7a7a7a;
+ }
+
+
+
+
+
+
+
+
+
+ .mapsText_p::-webkit-scrollbar {
+     width: 10px;
+ }
+
+ .mapsText_p::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     background: linear-gradient(90deg, #4d4b41 0%, #cbc6a7ef 50%, #4d4b41 100%);
+ }
+
+
+
+
+ .mapsText_p h2,
+ h3,
+ h1 {
+     color: #959595;
+ }
+
+ .txt {
+     text-align: right;
+ }

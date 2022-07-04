@@ -1,0 +1,28 @@
+.sky {
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.cloud {
+    position: absolute;
+    overflow: hidden;
+    
+    top: 0;
+    width: 155%;
+    height: 600px;
+    background-image: url(./../../../img/cloudsPNG/clouds_2.png);
+    background-size: cover;
+    -webkit-animation: movingclouds 70s linear infinite;
+
+}
+
+@keyframes movingclouds {
+    0% {
+        margin-left: 90%;
+    }
+
+    100% {
+        margin-left: -135%;
+    }
+}

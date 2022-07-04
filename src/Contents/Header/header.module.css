@@ -1,0 +1,77 @@
+.header {
+    grid-area: h;
+    background-color: #000000e1;
+    max-width: 1600px;
+    min-width: 1520px;
+}
+
+
+.imgLogo img {
+    position: fixed;
+    left: -1px;
+    width: 1fr;
+    height: 65px;
+    padding: 0px 25px;
+    transition: 0.7s;
+
+}
+
+.imgLogo img:hover {
+    -webkit-filter: drop-shadow(0px 2px 3px #756e6e);
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+
+.box {
+    margin: 0;
+
+}
+.person{
+    position: relative;
+    top: 5px;
+    left: 1450px;
+    border: 3px solid #727171;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.persom:hover{
+    border: 3px solid #727171;
+    box-shadow: 0px 0px 3px 3px #727171;
+    transition: 0.3s;
+}
+.box .person img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: -9px;
+    top: -7px;
+    border-radius: 100px;
+    transition: 0.2s;
+}
+.person img:hover{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: -9px;
+    top: -7px;    
+    transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+

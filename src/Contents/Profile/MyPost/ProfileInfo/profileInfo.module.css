@@ -1,0 +1,62 @@
+/* .profileInfo {
+    grid-area: p;
+}
+
+.profileInfo img {
+    width: 1330px;
+    height: 500px;
+} */
+
+
+.text {
+    position: relative;
+    max-width: 350px;
+    min-width: 200px;
+    max-height: 150px;
+    min-height: 20px;
+    padding: 20px;
+    left: 12px;
+    top: 5px;
+    height: auto;
+
+    background-color: #1a1919;
+    border-radius: 15px 15px 5px 0px;
+    border: 0px solid #383126e4;
+    background: linear-gradient(0deg, #7e7e7e 0%, #0d0d0dbe 5%, #1a1919ca 80%);
+
+    color: #d5d2cd;
+    font-size: 17px;
+    font-weight: 400;
+    z-index: 100;
+}
+
+.text::-webkit-scrollbar {
+    width: 0;
+}
+
+
+.click {
+    position: relative;
+    border-radius: 0px 0px 15px 5px;
+    border: 0px solid #000000c1;
+    background-color: #000000c1;
+    border-top: 1px double #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 5px 15px;
+    left: 12px;
+    transition: 0.1s;
+    z-index: 1;
+}
+
+.click:hover {
+    background-color: #383126e4;
+    color: #ffffff;
+    transition: 0.1s;
+}
+
+.click:active {
+    background-color: #000000e4;
+    color: #ffffff;
+    transition: 0.1s;
+}
