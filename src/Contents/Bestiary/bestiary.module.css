@@ -7,7 +7,7 @@
     grid-template-areas: "menu content text";
     position: absolute;
     top: 60px;
-    max-width: 1350px;
+    max-width: 1339px;
     min-width: 1300px;
     overflow: hidden;
     background-color: #000000e7;
@@ -18,7 +18,7 @@
 }
 
 .bestiary img {
-    width: 1350px;
+    width: 1339px;
     height: 680px;
 
 }
