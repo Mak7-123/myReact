@@ -1,20 +1,11 @@
-import React, { Component } from 'react';
-import s from "./baraholka.module.css";
-import Button from './Nau/button';
-import Nau from './Nau/nau';
+import React from 'react'
 
-
-
-class Baraholka extends Component {
-
-  render() {
-    return (
-      <div className={s.box}>
-        <Nau />
-      </div>
-    );
-  }
+const Baraholka = () => {
+  return (
+    <div>
+      
+    </div>
+  )
 }
 
-export default Baraholka;
-
+export default Baraholka

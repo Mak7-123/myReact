@@ -1,8 +1,9 @@
 .header {
     grid-area: h;
     background-color: #000000e1;
-    max-width: 1600px;
-    min-width: 1520px;
+    width: 100vw;
+    max-width: 1550px;
+    /* min-width: 1500px; */
 }
 
 
